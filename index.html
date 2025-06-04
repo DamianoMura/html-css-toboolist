@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
   <body class="bg-lg">
-    <header class="bg-white h90">
+    <header class="bg-white">
       <div class="logo">
         <img src="./assets/img/logo.png" alt="logo"
           class="display-block  vertical-middle">
-        <span class="display-block w900">
+        <span class="display-block vertical-middle">
           Toboolist
         </span>
       </div>
       <img>
     </header>
     <main>
-
-      <section class="container round-top mtop50">
+      <!--sezione buttons-->
+      <section class="container round-top mtop50 bg-white">
         <div class="button display-block">
           <span class="bold">Add Task</span>
         </div>
@@ -27,18 +27,21 @@
           <span class="bold">Add Section</span>
         </div>
       </section>
-      <!-- triangolino verso il basso =   ▼  =  &#9660;-->
-      <section class="container round-bottom mtop5">
+      <!--/sezione buttons-->
+      <!-- triangolino verso il basso =   ▼  =  &#9660;
+       section nested lists-->
+      <section class="container round-bottom mtop5 bmargin10 bg-white">
         <ul>
 
-          <li>
+          <li class="list-titles">
             <span class="bold">&#9660; New Task</span>
             <ul>
               <li>
                 <div class="round true bold ">
                   <span>&check;</span>
                 </div>
-                <span class="inline-block">Quarterly Newsletter</span>
+                <span class="inline-block vertical-middle">Quarterly
+                  Newsletter</span>
                 <div class="icon blue-icon">
                   <span>Editorial</span>
                 </div>
@@ -46,30 +49,113 @@
             </ul>
           </li> <!-- /newtask li-->
 
-          <li>
+          <li class="list-titles">
             <span class="bold">&#9660; Today</span>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+            <ul> <!--nested ul WARNING-->
+
+              <li>
+                <li>
+                  <div class="round true bold ">
+                    <span>&check;</span>
+                  </div>
+                  <span class="inline-block vertical-middle">Recruiting blog
+                    post</span>
+                  <div class="icon blue-icon">
+                    <span>Editorial</span>
+                  </div>
+                </li>
+              </li>
+
+              <li>
+                <li>
+                  <div class="round true bold ">
+                    <span>&check;</span>
+                  </div>
+                  <span class="inline-block vertical-middle">Mobile app
+                    launch</span>
+                  <div class="icon purple-icon">
+                    <span>Q1 Goals</span>
+                  </div>
+                </li>
+              </li>
+
+              <li>
+                <div class="round false bold ">
+                  <span>&cross;</span>
+                </div>
+                <span class="inline-block vertical-middle">Interview John
+                  H.</span>
+                <div class="icon green-icon">
+                  <span>recruiting</span>
+                </div>
+              </li>
+
+              <li>
+                <div class="round true bold ">
+                  <span>&check;</span>
+                </div>
+                <span class="inline-block vertical-middle">Summit update to
+                  mobile storefronts
+                </span>
+                <div class="icon orange-icon">
+                  <span>Mobile</span>
+                </div>
+              </li>
+            </ul> <!-- /nested ul WARNING-->
+
           </li> <!-- /today li-->
 
-          <li>
+          <li class="list-titles">
             <span class="bold">&#9660; Upcoming</span>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+
+            <ul><!--nested ul WARNING-->
+              <li>
+                <div class="round false bold ">
+                  <span>&check;</span>
+                </div>
+                <span class="inline-block vertical-middle">Schedule meeting with
+                  Alex
+                </span>
+              </li>
+              <li>
+                <div class="round true bold ">
+                  <span>&check;</span>
+                </div>
+                <span class="inline-block vertical-middle"> Homepage refresh
+                </span>
+                <div class="icon pink-icon">
+                  <span>Websites</span>
+                </div>
+              </li>
+              <li>
+                <div class="round true bold ">
+                  <span>&check;</span>
+                </div>
+                <span class="inline-block vertical-middle"> Onboard new Sales
+                  team members
+                </span>
+                <div class="icon lime-icon">
+                  <span>Sales</span>
+                </div>
+              </li>
+              <li>
+                <div class="round true bold ">
+                  <span>&check;</span>
+                </div>
+                <span class="inline-block vertical-middle"> Review editorial
+                  calendar
+                </span>
+                <div class="icon blue-icon">
+                  <span>Editorial</span>
+                </div>
+              </li>
             </ul>
           </li><!-- /upcoming li-->
 
-        </ul>
+        </ul><!--nested ul WARNING-->
 
       </section>
-
+      <!--/sezione nested lists-->
     </main>
   </body>
 </html>
