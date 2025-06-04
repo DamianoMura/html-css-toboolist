@@ -21,12 +21,40 @@ body {
   padding: 10px 0 20px 10px;
 }
 
+/* buttons */
+
+
+.button {
+  padding: 0 5px;
+  margin: 15px 0 5px 0;
+  height: 25px;
+  background-color: #47AEEC;
+  color: white;
+  border: rgba#47AEEC solid 2px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 80%;
+  line-height: 25px;
+}
+
+.button-greyed {
+  padding: 0 5px;
+  margin: 15px 0 5px 0;
+  height: 25px;
+  color: rgba(128, 128, 128, 0.463);
+  border: rgba(128, 128, 128, 0.463) solid 2px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 80%;
+  line-height: 25px;
+}
+
 
 /* tools */
 .container {
-  max-width: 800;
+  max-width: 75%;
   margin: 0 auto;
-  text-align: center;
+  padding-left: 50px;
 }
 
 .mtop50 {
@@ -36,8 +64,6 @@ body {
 .mtop5 {
   margin-top: 5px;
 }
-
-
 
 .bg-lg {
   background-color: #F6F8FA;
@@ -58,4 +84,8 @@ body {
 
 .h90 {
   height: 90px;
+}
+
+.round-top {
+  border-radius: 15px 15px 0 0;
 }
