@@ -6,6 +6,11 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 
 
 
@@ -51,8 +56,65 @@ body {
   line-height: 25px;
 }
 
+/* check - cross divs*/
+.round {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+}
 
+.true {
+  color: green;
+  border: green solid 2px;
+}
 
+.false {
+  color: red;
+  border: red;
+}
+
+/* category icon*/
+
+.icon {
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 0.6rem;
+  color: white;
+  padding: 3px;
+}
+
+.blue-icon {
+  background-color: #43A9E6;
+  /* Editorial*/
+}
+
+.pink-icon {
+  background-color: #D564A3;
+  /* Websites*/
+}
+
+.green-icon {
+  background-color: #66C1A7;
+  /* Recruiting*/
+}
+
+.orange-icon {
+  background-color: #EF9D36;
+  /* Mobile*/
+}
+
+.lime-icon {
+  background-color: #AEC82B;
+  /* Sales*/
+}
+
+.purple-icon {
+  background-color: #43A9E6;
+  /* Q1 Goals*/
+}
 
 /* tools */
 .container {
