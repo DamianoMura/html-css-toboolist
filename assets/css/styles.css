@@ -10,11 +10,12 @@ body {
 
 
 
+
 /*logo*/
 .logo {
   font-size: 2rem;
   margin: 0 auto;
-  font-weight: 900;
+
 }
 
 .logo img {
@@ -50,11 +51,22 @@ body {
 }
 
 
+
+
 /* tools */
 .container {
   max-width: 75%;
   margin: 0 auto;
   padding-left: 50px;
+  background-color: white;
+}
+
+.round-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.round-bottom {
+  border-radius: 0 0 10px 10px;
 }
 
 .mtop50 {
@@ -73,9 +85,6 @@ body {
   display: inline-block;
 }
 
-.bg-white {
-  background-color: white;
-}
 
 .vertical-middle {
   vertical-align: middle;
@@ -84,8 +93,4 @@ body {
 
 .h90 {
   height: 90px;
-}
-
-.round-top {
-  border-radius: 15px 15px 0 0;
 }
