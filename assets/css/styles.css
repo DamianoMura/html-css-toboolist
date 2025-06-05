@@ -43,9 +43,7 @@ ul li {
   padding: 0 5px;
   margin: 15px 0 5px 0;
   height: 25px;
-  background-color: #47AEEC;
-  color: white;
-  border: #47AEEC solid 2px;
+
   border-radius: 5px;
   text-align: center;
   font-size: 80%;
@@ -53,16 +51,20 @@ ul li {
 }
 
 .button.greyed {
-  padding: 0 5px;
-  margin: 15px 0 5px 0;
-  height: 25px;
+
   background-color: white;
   color: rgba(128, 128, 128, 0.463);
   border: rgba(128, 128, 128, 0.463) solid 2px;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 80%;
-  line-height: 25px;
+
+}
+
+.button.active {
+
+  background-color: #47AEEC;
+  color: white;
+  border: #47AEEC solid 2px;
+
+
 }
 
 /* check - cross divs*/
