@@ -67,6 +67,13 @@ ul li {
 
 }
 
+.button.active:hover {
+  background-color: #85bee1;
+  color: #c5ec47;
+  border: #c5ec47 solid 2px;
+  cursor: pointer;
+}
+
 /* check - cross divs*/
 .round {
   display: inline-block;
